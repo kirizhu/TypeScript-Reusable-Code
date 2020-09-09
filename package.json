@@ -1,0 +1,26 @@
+{
+  "name": "TypeScript-Reusable-Code",
+  "version": "1.0.0",
+  "description": "Working with CSV files",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirizhu/TypeScript-Reusable-Code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirizhu/TypeScript-Reusable-Code/issues"
+  },
+  "homepage": "https://github.com/kirizhu/TypeScript-Reusable-Code#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
