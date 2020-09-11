@@ -14,11 +14,14 @@ const matches = fs
 
 //get Man U wins
 let manUnitedWins = 0;
+const homeWin = 'H';
+const awayWin = 'A';
+const draw = 'D';
 
 for (const match of matches) {
-  if (match[1] === 'Man United' && match[5] === 'H') {
+  if (match[1] === 'Man United' && match[5] === homeWin) {
     manUnitedWins++;
-  } else if (match[2] === 'Man United' && match[5] === 'A') {
+  } else if (match[2] === 'Man United' && match[5] === awayWin) {
     manUnitedWins++;
   }
 }
