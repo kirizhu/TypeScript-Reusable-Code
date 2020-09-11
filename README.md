@@ -23,7 +23,7 @@ print the wins
 
 # Issues with first implementation
 
-- Magic string comparisons 'H' & 'A' ?
+- Magic string comparisons 'H', 'A', 'D'
 - Source of data is hardcoded
 - Data array is all strings even though they contain numbers
 - Variable is named after a specific team
