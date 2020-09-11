@@ -12,4 +12,14 @@ const matches = fs
 // first we split on row
 //then we map the rows to and array of strings that are split on the comma.
 
-console.log(matches);
+//get Man U wins
+let manUnitedWins = 0;
+
+for (const match of matches) {
+  if (match[1] === 'Man United' && match[5] === 'H') {
+    manUnitedWins++;
+  } else if (match[2] === 'Man United' && match[5] === 'A') {
+    manUnitedWins++;
+  }
+}
+console.log(`Man United won ${manUnitedWins} games`);
