@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/kirizhu/TypeScript-Reusable-Code#readme",
   "dependencies": {
+    "@types/node": "^14.10.0",
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   }

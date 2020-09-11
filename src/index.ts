@@ -1,1 +1,1 @@
-console.log('I am configured');
+import fs from 'fs';
