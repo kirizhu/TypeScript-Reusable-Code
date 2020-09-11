@@ -23,9 +23,26 @@ print the wins
 
 # Issues with first implementation
 
-- Magic string comparisons 'H', 'A', 'D'
-- Source of data is hardcoded
-- Data array is all strings even though they contain numbers
-- Variable is named after a specific team
-- Analysis type is fixed
-- No ability to output the report in different formats
+# Magic string comparisons 'H', 'A', 'D'
+
+- Solution: Enums
+
+# Source of data is hardcoded
+
+-
+
+# Data array is all strings even though they contain numbers
+
+-
+
+# Variable is named after a specific team
+
+-
+
+# Analysis type is fixed
+
+-
+
+# No ability to output the report in different formats
+
+-
