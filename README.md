@@ -29,7 +29,7 @@ print the wins
 
 # Source of data is hardcoded
 
--
+- Breaking out CSV file reader into separate class for more reusable code
 
 # Data array is all strings even though they contain numbers
 
