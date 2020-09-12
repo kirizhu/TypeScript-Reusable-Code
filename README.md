@@ -33,7 +33,7 @@ print the wins
 
 # Data array is all strings even though they contain numbers
 
--
+- Solution: Describe the row with a tuple
 
 # Variable is named after a specific team
 
