@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { MatchResult } from './MatchResult';
 //encoding tells readfilesync whta type of content we expect to find inside the csv file. utf8 text content (string) otherwise we would get a buffer
 import { dateStringToDate } from './utils';
 export class CsvFileReader {
@@ -20,6 +21,8 @@ export class CsvFileReader {
           row[2],
           parseInt(row[3]),
           parseInt(row[4]),
+          row[5] as MatchResult, // Type assertion
+          row[6],
         ];
       });
   }
