@@ -5,12 +5,7 @@ var utils_1 = require("./utils");
 var MatchReader = /** @class */ (function () {
     function MatchReader(reader) {
         this.reader = reader;
-        // reader: DataReader;
-        // constructor(reader: DataReader) {
-        //   this.reader = reader;
-        // }
         this.matches = [];
-        //short syntax for above lines
     }
     MatchReader.prototype.load = function () {
         this.reader.read();
@@ -29,3 +24,7 @@ var MatchReader = /** @class */ (function () {
     return MatchReader;
 }());
 exports.MatchReader = MatchReader;
+// reader: DataReader;
+// constructor(reader: DataReader) {
+//   this.reader = reader;
+// }
