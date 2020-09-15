@@ -46,3 +46,15 @@ print the wins
 # No ability to output the report in different formats
 
 -
+# Inheritance vs Composition
+
+- Inheritance = Is a relationship between to classes. For example MatchReader is a CsvFileReader because MatchReader has all the different methods and properties that normally belong to a CsvFileReader as well.
+  
+We created a Superclass and child class that extended the parent class and customized the behaviour by implementing the abstract method from the parent (mapRow) inside of the child.
+
+
+- Composition = Has a relationship between two classes. For example in this case MatchReader has a reference to an outside object like our CsvFileReader and everytime we wanted to upload some data we delegated that to that outside object
+  
+We created different classes, with reference to an object. We said that this object could be any object that satisfied the dataReader interface.
+The loading of the data was handled by another different class. The reader can then be switched out for another to customize the behaviour.
+

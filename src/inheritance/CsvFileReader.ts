@@ -1,7 +1,6 @@
 import fs from 'fs';
-//encoding utf8 = expect text content
 
-//Generic = <T>
+//Making use of Generics = <T>
 export abstract class CsvFileReader<T> {
   data: T[] = [];
   constructor(public filename: string) {}
